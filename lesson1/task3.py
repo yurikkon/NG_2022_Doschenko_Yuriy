@@ -1,0 +1,5 @@
+secondstime = int(input("how seconds :"))
+print(secondstime//86400)
+print(secondstime//3600%60)
+print(secondstime//60%60)
+print(secondstime%60)
