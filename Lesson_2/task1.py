@@ -7,12 +7,4 @@ for elements in range(len(string)):
             if string[elements] == string[letters]:
                 count = count + 1
             if letters + 1 == len(string):
-
                 print(count)
-
-        #abac
-
-
-
-
-

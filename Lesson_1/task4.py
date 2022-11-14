@@ -5,14 +5,11 @@ disc = (secondnumber * secondnumber) - (4 * (firstnumber * thirtnumber))
 print(disc)
 if disc <= 0:
     print("sorry disc < 0 bad coefficient")
-    quit()
 if disc == 0:
     firstanswer = - (secondnumber / (2*firstnumber))
     print( firstanswer)
-    quit()
 if disc >= 0:
     firstanswer = ((- secondnumber) - (disc ** 0.5)) / (2*firstnumber)
     secondanswer = ((- secondnumber) + (disc ** 0.5)) / (2*firstnumber)
     print(firstanswer)
     print(secondanswer)
-    quit()
