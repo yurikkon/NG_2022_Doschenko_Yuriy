@@ -1,3 +1,5 @@
+firstnumber = int(input("write first number: "))
+secondnumber = int(input("write second number: "))
 def main():
     operation = input("What operation?")
     if operation == "-":
@@ -9,23 +11,15 @@ def main():
     if operation == "/":
         divide()
 def plus():
-    a = int(input("write first number: "))
-    b = int(input("write second number: "))
-    result = a+b
+    result = firstnumber+secondnumber
     print(result)
 def divide():
-    a = int(input("write first number: "))
-    b = int(input("write second number: "))
-    result = a/b
+    result = firstnumber/secondnumber
     print(result)
 def minus():
-    a = int(input("write first number: "))
-    b = int(input("write second number: "))
-    result = a-b
+    result = firstnumber-secondnumber
     print(result)
 def multiply():
-    a = int(input("write first number: "))
-    b = int(input("write second number: "))
-    result = a*b
+    result = firstnumber*secondnumber
     print(result)
 main()
