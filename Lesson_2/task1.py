@@ -1,10 +1,6 @@
-string = list(input("write string: "))
-list.sort(string)
-for elements in range(len(string)):
-    count = 0
-    if string[elements] != string[elements - 1]:
-        for letters in range(len(string)):
-            if string[elements] == string[letters]:
-                count = count + 1
-            if letters + 1 == len(string):
-                print(count)
+stringlvl1 = list(input("write string: "))
+stringlvl2 = sorted(set(stringlvl1))
+for index in stringlvl2:
+    count = stringlvl1.count(index)
+    print(count)
+
