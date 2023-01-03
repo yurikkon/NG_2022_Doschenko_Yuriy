@@ -1,7 +1,7 @@
 firstnumber = int(input("write first number: "))
 secondnumber = int(input("write second number: "))
 operation = input("What operation?")
-def main(operation):
+def main():
     if operation == "-":
         return minus()
     if operation == "+":
@@ -39,5 +39,4 @@ if operation == "/":
     resultdivide = divide()
     print(resultdivide)
 
-
-main(operation)
+main()
